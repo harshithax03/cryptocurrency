@@ -1,10 +1,13 @@
 import React from 'react'
+import { Nav } from './components/Common/Nav'
+import { Footer } from './components/Common/Footer'
 
 export const App = () => {
   return (
-    <div>
-      hey there i think its working
-    </div>
+    <>
+    <Nav/>
+    <Footer/>
+    </>
   )
 }
 
