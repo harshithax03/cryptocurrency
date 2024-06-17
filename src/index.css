@@ -6,15 +6,15 @@
   --inter: "Inter" , "sans-serif";
   --poppins: "Poppins", "sans-serif";
   --purple: #c3b2ff;
-  --seaGreen: #dbedb6;
-  --background: #eeeeee;
+  --seaGreen: #cced8a;
+  --white: #eeeeee;
   --black : #292929;
 }
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: var(--background);
+  background-color: var(--white);
   font-family: var(--poppins);
   color: var(--black);
 }

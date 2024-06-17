@@ -1,1 +1,30 @@
  /* nav styling */
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+ }
+.nav h4{
+    all: unset;
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+ .nav h4 span{
+    color: var(--purple);
+ }
+ .nav-links{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+ }
+ .nav-links  #dashboard{
+    background-color: var(--purple) !important;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+ }
