@@ -33,3 +33,30 @@
     cursor: pointer;
     color: var(--black);
  }
+ .nav-menu{
+    display: none;
+ }
+
+
+ /* media queries */
+ @media only screen and (max-width: 800px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+    .nav h4{
+        font-size: 1.5rem;
+    }
+    .nav{
+        padding: 1.5rem;
+    }
+    .menu{
+        width: 40vw;
+        padding: 2.5rem;
+        background-color: var(--seaGreen);
+        height: 100%;
+        font-size: 1.3rem;
+    }
+ }
