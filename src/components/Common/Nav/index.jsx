@@ -10,7 +10,7 @@ export const Nav = () => {
       <div className='nav-links'>
         <p>Home</p>
         <p>Compare</p>
-        <Button text= "DashBoard " outline={false} />
+        <Button text= "DashBoard" outline={false} />
       </div>
       <div className='nav-menu'>
       <AnchorTemporaryDrawer />

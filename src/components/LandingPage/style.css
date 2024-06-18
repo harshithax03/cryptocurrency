@@ -1,0 +1,27 @@
+/* Landing page styles */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 4rem ;
+}
+
+.hero-text h1{
+    font-size: 8rem;
+    font-weight: 800;
+    margin: 0;
+    font-family: var(--inter);
+    
+}
+.hero-text #diff-txt{
+    color: var(--purple);
+}
+.hero-text p {
+    font-family: var(--inter);
+    color: var(--grey);
+}
+.btns{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin-top: 2.5rem;
+}
