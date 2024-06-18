@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import AnchorTemporaryDrawer from './NavMenu'
+import { Button } from '../Button'
 
 export const Nav = () => {
   return (
@@ -9,7 +10,7 @@ export const Nav = () => {
       <div className='nav-links'>
         <p>Home</p>
         <p>Compare</p>
-        <p id='dashboard'>Dashboard</p>
+        <Button text= "DashBoard " outline={false} />
       </div>
       <div className='nav-menu'>
       <AnchorTemporaryDrawer />

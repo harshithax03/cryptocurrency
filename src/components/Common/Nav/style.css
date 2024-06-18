@@ -26,13 +26,7 @@
     font-weight: 700;
     color: var(--grey);
  }
- .nav-links  #dashboard{
-    background-color: var(--purple) !important;
-    padding: 0.5rem 1.1rem;
-    border-radius: 50px;
-    cursor: pointer;
-    color: var(--black);
- }
+ 
  .nav-menu{
     display: none;
  }
