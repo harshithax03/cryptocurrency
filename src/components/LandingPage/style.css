@@ -1,16 +1,19 @@
 /* Landing page styles */
 .hero{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 12rem;
+    align-items: center;
     padding: 5rem 4rem ;
+    position: relative;
 }
 
 .hero-text h1{
     font-size: 8rem;
     font-weight: 800;
     margin: 0;
-    font-family: var(--inter);
-    
+    font-family: var(--inter);  
+    z-index: 100;
 }
 .hero-text #diff-txt{
     color: var(--purple);
@@ -24,4 +27,33 @@
     gap: 2.5rem;
     align-items: center;
     margin-top: 2.5rem;
+}
+.purple-gradient1, .purple-gradient2{
+    width: 25rem;
+    height: 25rem;
+    background-color: var(--purple);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+}
+.purple-gradient1{
+    right: 5rem;
+    bottom: -4rem;
+    opacity: 0;
+}
+.purple-gradient2{
+    right: 0rem;
+    top: 3rem;
+}
+.hero-img{
+    /* width: 40%; */
+    align-self: flex-start;
+    position: relative;
+
+}
+.phone-img{
+    width: 26rem;
+    position: absolute;
+    top: -6rem;
 }
