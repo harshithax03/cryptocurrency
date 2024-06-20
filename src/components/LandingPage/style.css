@@ -1,7 +1,6 @@
 /* Landing page styles */
 .hero{
     display: flex;
-    /* justify-content: space-between; */
     gap: 12rem;
     align-items: center;
     padding: 5rem 7rem ;
@@ -53,20 +52,30 @@
     background-color: var(--purple);
 
 }
+.purple-gradient4{
+    left: 55rem;
+    width: 10rem;
+    top: 3rem;
+    background-color: var(--purple);
+
+}
 .purple-gradient3{
-    left: -15rem;
-    top: -10rem;
+    left: -13rem;
+    top: -8rem;
     background-color: var(--seaGreen);
 
 }
 
 .hero-img{
-    align-self: flex-start;
+    align-self: center;
     position: relative;
-
 }
 .phone-img{
-    width: 26rem;
+    width: 28rem;
+    scale: 1.4;
+    justify-self: self-end;
     position: absolute;
-    top: -6rem;
+    right: -36rem;
+    bottom: -19rem;
+
 }
