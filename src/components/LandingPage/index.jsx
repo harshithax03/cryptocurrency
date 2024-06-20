@@ -3,6 +3,7 @@ import { Button } from '../Common/Button'
 import "./style.css"
 import phone from "../../assets/phone.png"
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom'
 
 export const Hero = () => {
     return (
@@ -36,7 +37,10 @@ export const Hero = () => {
                     animate={{ opacity: 1, scale: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 1 }}
                 >
+                    <Link to="/dashboard" className='link'>
                     <Button text="Dashboard" outline={false} />
+                    
+                    </Link>
                     <Button text="Share" outline={true} />
                 </motion.div>
 

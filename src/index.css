@@ -21,7 +21,9 @@ body {
   overflow: hidden;
 
 }
-
+.link{
+  all: unset;
+}
 
 
 ::selection {
