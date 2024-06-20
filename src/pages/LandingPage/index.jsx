@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '../Common/Button'
+import { Button } from '../../components/Common/Button'
 import "./style.css"
 import phone from "../../assets/phone.png"
 import { motion } from "framer-motion"
