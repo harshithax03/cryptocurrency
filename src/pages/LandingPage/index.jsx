@@ -10,17 +10,17 @@ export const Hero = () => {
         <div className='hero'>
             <div className='hero-text'>
                 <motion.h2
-                    initial={{ opacity: 0,  y: 50 }}
-                    animate={{ opacity: 1,  y: 0 }}
-                    transition={{ duration: 0.5 }}
+                    initial={{ opacity: 0, scale: 0.9, x: -150 }}
+                    animate={{ opacity: 1, scale: 1,x: 0 }}
+                    transition={{ duration: 1.2,}}
                 >
                     Crypto Monitoring
                     Real-Time
-                
-                
+
+
                 </motion.h2>
 
-               
+
 
                 <motion.p
                     initial={{ opacity: 0, scale: 0.9, y: 50 }}
@@ -38,8 +38,8 @@ export const Hero = () => {
                     transition={{ duration: 0.5, delay: 1 }}
                 >
                     <Link to="/dashboard" className='link'>
-                    <Button text="Dashboard" outline={false} />
-                    
+                        <Button text="Dashboard" outline={false} />
+
                     </Link>
                     <Button text="Share" outline={true} />
                 </motion.div>
@@ -95,8 +95,8 @@ export const Hero = () => {
                 transition={{ duration: 1 }}
 
             ></motion.div>
-           
-          
+
+
         </div>
     )
 }
