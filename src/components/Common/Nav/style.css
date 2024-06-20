@@ -3,15 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 4rem;
+    padding: 2rem 7rem;
     position: sticky;
     top: 0;
     left: 0;
  }
 .nav h4{
     all: unset;
-    font-weight: 700;
-    font-size: 2.5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: -0.09rem;
 
 }
  .nav h4 span{
@@ -21,10 +22,10 @@
     display: flex;
     gap: 2rem;
     align-items: center;
-    font-family: var(--inter);
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--grey);
+    font-family: var(--poppins);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
  }
  
  .nav-menu{

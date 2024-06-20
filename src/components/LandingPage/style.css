@@ -4,19 +4,21 @@
     /* justify-content: space-between; */
     gap: 12rem;
     align-items: center;
-    padding: 5rem 4rem ;
+    padding: 5rem 7rem ;
     position: relative;
 }
-
-.hero-text h1{
-    font-size: 8rem;
+.hero-text{
+    width: 50%;
+}
+.hero-text h2{
+    font-size: 6rem;
     font-weight: 800;
     margin: 0;
     font-family: var(--inter);  
     z-index: 100;
 }
 .hero-text #diff-txt{
-    color: var(--purple);
+    color: var(--black);
 }
 .hero-text p {
     font-family: var(--inter);
@@ -28,10 +30,12 @@
     align-items: center;
     margin-top: 2.5rem;
 }
-.purple-gradient1, .purple-gradient2{
+.purple-gradient1,
+ .purple-gradient2,
+ .purple-gradient3,
+ .purple-gradient4{
     width: 25rem;
     height: 25rem;
-    background-color: var(--purple);
     position: absolute;
     border-radius: 50%;
     filter: blur(100px);
@@ -39,15 +43,24 @@
 }
 .purple-gradient1{
     right: 5rem;
-    bottom: -4rem;
-    opacity: 0;
+    bottom: 0rem;
+    background-color: var(--seaGreen);
+
 }
 .purple-gradient2{
-    right: 0rem;
+    right: 15rem;
     top: 3rem;
+    background-color: var(--purple);
+
 }
+.purple-gradient3{
+    left: -15rem;
+    top: -10rem;
+    background-color: var(--seaGreen);
+
+}
+
 .hero-img{
-    /* width: 40%; */
     align-self: flex-start;
     position: relative;
 

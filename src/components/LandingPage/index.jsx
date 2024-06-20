@@ -8,18 +8,18 @@ export const Hero = () => {
     return (
         <div className='hero'>
             <div className='hero-text'>
-                <motion.h1
+                <motion.h2
                     initial={{ opacity: 0, scale: 0.9, y: 50 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                >Track Crypto</motion.h1>
+                >
+                    Crypto Monitoring
+                    Real-Time
+                
+                
+                </motion.h2>
 
-                <motion.h1
-                    id='diff-txt'
-                    initial={{ opacity: 0, scale: 0.9, y: 50 }}
-                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
-                >Real Time.</motion.h1>
+               
 
                 <motion.p
                     initial={{ opacity: 0, scale: 0.9, y: 50 }}
@@ -77,7 +77,15 @@ export const Hero = () => {
                 transition={{ duration: 1 }}
 
             ></motion.div>
+            <motion.div
+                className='purple-gradient3'
+                initial={{ opacity: 0, x: 450 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
 
+            ></motion.div>
+           
+          
         </div>
     )
 }
