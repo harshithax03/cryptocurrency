@@ -1,0 +1,73 @@
+.grid-box{
+    background: var(--purple);
+    width: 230px;
+    height: 230px;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.img-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.coin-img{
+    height: 3rem;
+    width:  3rem;
+    border-radius: 50%;
+}
+.coin-symbol{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0rem;
+}
+.coin-name {
+    margin: 0;
+    font-weight: 400;
+    color: var(--grey);
+    font-size: 0.8rem;
+  }
+.growth-rate{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.pr{
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.negative{
+    border: 2px solid rgb(209, 35, 64);
+}
+.positive{
+    border: 2px solid rgb(24, 147, 61);
+}
+.growth-icon{
+    border-radius: 500px;
+    padding: 0.2rem;
+}
+.price{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    font-family: var(--poppins);
+}
+.pp{
+    color: rgb(51, 148, 51);
+}
+.pn{
+    color: rgb(232, 59, 71);
+}
+.values p{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--inter);
+}
+.values p span{
+    color: var(--grey);
+}

@@ -18,7 +18,7 @@ body {
   background-color: var(--white);
   font-family: var(--poppins);
   color: var(--black);
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 .link{
@@ -29,4 +29,22 @@ body {
 ::selection {
   background-color: var(--purple);
   color: var(--black);
+}
+
+
+::-webkit-scrollbar {
+  width: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--purple); 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

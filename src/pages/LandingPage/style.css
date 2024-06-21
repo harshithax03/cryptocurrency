@@ -72,10 +72,10 @@
 }
 .phone-img{
     width: 28rem;
-    scale: 1.4;
+    scale: 1.2;
     justify-self: self-end;
-    position: absolute;
+    /* position: absolute;
     right: -36rem;
-    bottom: -19rem;
+    bottom: -10rem; */
 
 }
