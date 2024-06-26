@@ -31,7 +31,7 @@ export const Grid = ({ info }) => {
                 <p>Market Cap : <span>{info.market_cap}</span></p>
 
             </div>
-
+              
         </div>
     )
 }

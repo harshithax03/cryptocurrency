@@ -1,11 +1,14 @@
 .grid-box{
-    background: var(--purple);
+    /* background: var(--purple); */
+    background: rgba(230, 230, 230, 0.825);
     width: 230px;
     height: 230px;
     padding: 2rem;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    cursor: pointer;
 }
 .img-name{
     display: flex;
@@ -39,13 +42,25 @@
     border-radius: 20px;
     padding: 0.3rem 1rem;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 .negative{
-    border: 2px solid rgb(209, 35, 64);
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+.negative:hover{
+    background-color: var(--red);
+    color: var(--black  );
+    transition: all 0.5s;
+}
+.positive:hover{
+    background-color: var(--green);
+    color: var(--black);
+    transition: all 0.5s;
 }
 .positive{
-    border: 2px solid rgb(24, 147, 61);
+    border: 2px solid var(--green);
+    color: var(--green);
 }
 .growth-icon{
     border-radius: 500px;
@@ -58,10 +73,10 @@
     font-family: var(--poppins);
 }
 .pp{
-    color: rgb(51, 148, 51);
+    color: var(--green);
 }
 .pn{
-    color: rgb(232, 59, 71);
+    color: var(--red);
 }
 .values p{
     font-size: 0.8rem;
@@ -70,4 +85,8 @@
 }
 .values p span{
     color: var(--grey);
+}
+.grid-box:hover{
+    scale: 1.03;
+    transition: scale 0.4s ease-in-out;
 }
